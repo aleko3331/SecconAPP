@@ -10,7 +10,6 @@
 
 	<ItemGroup>
 		<Folder Include="Repository\" />
-		<Folder Include="Enums \" />
 	</ItemGroup>
 
 </Project>
