@@ -1,0 +1,20 @@
+﻿@model ItemssListViewModel
+@{
+}
+
+
+<div class="d-flex flex-wrap">
+    @foreach (var item in Model.ItemsList)
+    {
+
+        <div class="card" style="width: 18rem; padding: 25px 10px 25px 10px;">
+            <img src="@item.PhotoUrl" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.Condition</p>
+                <h5>@item.Price Gel</h5>
+            </div>
+        </div>
+
+    }
+</div>
